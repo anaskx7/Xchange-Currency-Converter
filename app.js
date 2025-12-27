@@ -52,5 +52,5 @@ btn.addEventListener("click", async(evt)=>{
     // amount.value=finalAmount;
    const msg = document.querySelector(".msg");
     msg.innerText= `${amountVal} ${fromCurrency.toUpperCase()} = ${finalAmount} ${toCurrency.toUpperCase()}`;
-   console.log(msg);
+   
 })
